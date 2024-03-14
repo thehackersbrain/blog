@@ -4,7 +4,7 @@
 title: '@thehackersbrain'
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Gaurav Raj | Hacker, Programmer and FreeLancer
-baseurl: "" # The subpath of your site, e.g. /blog
+baseurl: "/main-blog" # The subpath of your site, e.g. /blog
 url: "https://blog.thehackersbrain.online" # The base hostname & protocol for your site, e.g. http://example.com
 
 
