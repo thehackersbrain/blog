@@ -1,0 +1,95 @@
+#-------------------------------
+# General Site Settings
+# title: Gaurav Raj
+title: '@thehackersbrain'
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Gaurav Raj | Hacker, Programmer and FreeLancer
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Gaurav Raj
+  avatar: '/images/profile.jpg'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  title: Gaurav Raj
+  description: I'm a Cyber Security Student fueled by a passion for safeguarding digital landscapes. Join me on this exciting journey as I explore the dynamic world of cybersecurity and share insights along the way.
+  image: '/images/01.jpg'
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: contact@cybercraftlabs.site # Add your email for contact form
+  description: Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+
+# NOTE
+# Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Footer section
+# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/thehackersbrain"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/thehackersbrain"}
+- {icon: "ion-logo-github", link: "https://github.com/thehackersbrain"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/sebastianschuetze"}
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: enable# To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+kramdown:
+  parse_block_html: true
+
+paginate: 8
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,0 +1,16 @@
+current directory: /home/elliot/efs/projects/personal-blog/thehackersbrain.github.io/.bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+creating Makefile
+
+current directory: /home/elliot/efs/projects/personal-blog/thehackersbrain.github.io/.bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240314-23858-u2tplg sitelibdir\=./.gem.20240314-23858-u2tplg clean
+
+current directory: /home/elliot/efs/projects/personal-blog/thehackersbrain.github.io/.bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240314-23858-u2tplg sitelibdir\=./.gem.20240314-23858-u2tplg
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/elliot/efs/projects/personal-blog/thehackersbrain.github.io/.bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20240314-23858-u2tplg sitelibdir\=./.gem.20240314-23858-u2tplg install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20240314-23858-u2tplg
